@@ -9,8 +9,4 @@ public class PingResource implements Ping {
 		return "pong";
 	}
 
-	@Override
-	public String fail() {
-		throw new RuntimeException("test");
-	}
 }

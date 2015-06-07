@@ -8,10 +8,6 @@ import javax.ws.rs.Path;
 public interface Ping {
 
 	@GET
-	@Path("/fail")
-	public String fail();
-	
-	@GET
 	@Path("/")
 	public String ping();
 	
